@@ -409,8 +409,13 @@ body {
     justify-content: center;
 }
 .contactsection .contact .details .profile li{
-    list-style-type: square;
+    list-style: none;
     padding: 1vh;
+}
+.contactsection .contact .details .profile li span{
+    padding-right: 1.3vh;
+    font-size: 25px;
+    font-weight: 400;
 }
 .contactsection .contact .details .profile li a{
     text-decoration: none;
