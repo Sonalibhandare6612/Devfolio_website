@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-image: url("pexels-teona-swift-6912833 (1).jpg");
+    background-size: cover;
+}
+
+.navbar {
+    text-align: right;
+    height: 90px;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+.navbar ul {
+    padding: 19px;
+    display: inline-block;
+    text-align: right;
+    list-style: none;
+
+}
+
+.navbar ul li {
+    display: inline;
+    align-items: end;
+    padding: 9px;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    color: white;
+    margin: 9px;
+    padding: 9px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: rgb(255, 0, 76);
+}
+
+.homesection {
+    display: flex;
+    height: 84vh;
+    position: relative;
+}
+
+.homesection .info {
+    color: white;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3%;
+    font-size: large;
+
+}
+
+.homesection .info .decor {
+    width: 86%;
+    height: 72vh;
+    background-color: rgba(73, 73, 73, 0.26);
+    box-shadow: 2px 2px 3px 3px rgb(41, 39, 39);
+    padding: 5px;
+    padding-top: 5px;
+    position: relative;
+    z-index: 1;
+    left: 5%;
+    top: 0%;
+    align-items: center;
+    justify-content: center;
+}
+
+.homesection .info p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px 45px;
+}
+
+.homesection .info #heading-section {
+    text-align: center;
+}
+
+.homesection .info .head {
+    padding: 17px;
+    font-size: 40px;
+}
+
+.homesection .info .head span {
+    color: rgb(255, 14, 86);
+}
+
+.hide {
+    display: none;
+}
+
+.homesection .info .buttonsall .btn {
+    background-color: #D43F52;
+    border: 3px solid white;
+    padding: 8px 17px;
+    border-radius: 22px;
+    font-size: 19px;
+    margin: 13px 5px;
+    color: aliceblue;
+}
+.homesection .info .buttonsall .btn:hover{
+    background-color: white;
+    color: #ff034e;
+}
+
+.homesection .image {
+    padding-bottom: 5vh;
+    margin-bottom: 5vh;
+    height: 65vh;
+    width: 28%;
+}
+
+.aboutsection .about {
+    margin: 15vh 3vh;
+    display: flex;
+    width: 100%;
+    height: 72vh;
+}
+
+.aboutsection .about .abtinfo {
+    backface-visibility: visible;
+    background-color: rgba(73, 73, 73, 0.26);
+    box-shadow: 1px 1px 1px 1px rgb(68, 62, 62);
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    color: white;
+    text-align: justify;
+    padding: 4vh;
+}
+
+.aboutsection .about .abtinfo h2 {
+    padding-top: 3vh;
+    text-align: center;
+    font-size: 43px;
+}
+
+.aboutsection .about .abtinfo h2 span {
+    color: #ff034e;
+}
+
+.aboutsection .about .abtinfo p {
+    margin-top: 4vh;
+    padding-top: 4vh;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.aboutsection .about .abtinfo .buttonsall {
+    margin-top: 13px;
+    text-align: center;
+}
+
+.aboutsection .about .abtinfo .buttonsall .btn {
+    background-color: #e42c45;
+    border: 3px solid white;
+    padding: 8px 17px;
+    border-radius: 22px;
+    font-size: 19px;
+    margin: 13px 5px;
+    color: aliceblue;
+}
+.aboutsection .about .abtinfo .buttonsall .btn:hover{
+    background-color: white;
+    color: #ff034e;
+}
+
+
+.aboutsection .about .progressbar {
+    color: white;
+    margin: 5px;
+    padding-top: 20vh;
+    padding: 4vh;
+    width: 40%;
+    backface-visibility: visible;
+}
+
+.aboutsection .about .progressbar h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.aboutsection .about .progressbar h1 span{
+    color: #ff034e;
+}
+
+.aboutsection .about .progressbar p {
+    font-size: 18px;
+}
+
+.aboutsection .about .progressbar p span {
+    margin-left: 92%;
+}
+
+.aboutsection .about .progressbar .container {
+    background-color: white;
+    backface-visibility: hidden;
+    width: 100%;
+    border-radius: 15px;
+    height: 7px;
+}
+
+.aboutsection .about .progressbar.skills {
+    margin-top: 5vh;
+    border-radius: 15px;
+    height: 7px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.aboutsection .about .progressbar .html {
+    border-radius: 15px;
+    height: 7px;
+    width: 90%;
+    background-color: #e42c45;
+}
+
+.aboutsection .about .progressbar .css {
+    border-radius: 15px;
+    height: 7px;
+    width: 80%;
+    background-color: #e42c45;
+}
+
+.aboutsection .about .progressbar .js {
+    border-radius: 15px;
+    height: 7px;
+    width: 65%;
+    background-color: #e42c45;
+}
+
+.aboutsection .about .progressbar .python {
+    border-radius: 15px;
+    height: 7px;
+    width: 80%;
+    background-color: #e42c45;
+}
+.aboutsection .about .progressbar .django {
+    border-radius: 15px;
+    height: 7px;
+    width: 80%;
+    background-color: #e42c45;
+}
+
+.projectsection {
+    margin-top: 5vh;
+    width: auto;
+    height: 70vh;
+    color: white;
+}
+.projectsection h1{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 400;
+}
+.projectsection h1 span{
+    color: #ff034e;
+}
+
+.projectsection .allproject {
+    display: flex;
+    margin: 2vh 8vh;
+    gap: 5vh;
+}
+
+.projectsection .allproject .project1 {
+    width: 33%;
+    height: 43vh;
+    backface-visibility: visible;
+    background-color: rgba(73, 73, 73, 0.26);
+    box-shadow: 1px 1px 1px 1px rgb(68, 62, 62);
+    padding: 2vh 4vh;
+}
+
+.projectsection .allproject #leftbox {
+    position: relative;
+    top: 50%;
+    left: -500px;
+    transition: left 1s ease;
+}
+
+.projectsection .allproject #rightbox {
+    position: relative;
+    top: 50%;
+    right: -500px;
+    transition: right 1s ease;
+}
+
+.projectsection .allproject .project1 h3 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 300;
+    margin: 0.5vh;
+}
+
+.projectsection .allproject .project1 h4 {
+    font-size: 18px;
+    font-weight: 200;
+    margin: 2vh;
+    text-align: center;
+}
+
+.projectsection .allproject .project1 p {
+    font-size: 17px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.projectsection .allproject .project1 a{
+    text-decoration: none;
+    color: rgb(255, 0, 76);
+    font-size: 42px;
+    border: 3px solid rgb(255, 0, 76);
+    padding: 2px 7px;
+}
+.projectsection .allproject .project1 a:hover{
+    border: 3px solid white;
+    color: white;
+}
+.moving{
+    height: 45vh;
+    backface-visibility: visible;
+    z-index: 1;
+    top: 0%;
+}
+
+.moving .icon-container {
+    padding: 15vh;
+    display: flex;
+    background-color: rgba(73, 73, 73, 0.26);
+    box-shadow: 1px 1px 1px 1px rgb(68, 68, 68);
+    flex-direction: row;
+    backface-visibility: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.moving .icon-container .icon {
+    padding: 2.5vh;
+    margin: 1vh;
+    border: 3px solid #64162d;
+    box-shadow: 1px 2px 2px 3px rgb(66, 60, 60);
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+}
+.contactsection .contact{
+    margin-top: 17vh;
+    display: flex;
+    height: 70vh;
+    backface-visibility: visible;
+}
+.contactsection .contact .details{
+    margin: 5vh;
+    padding-left: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 200;
+}
+.contactsection .contact .details h1{
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+.contactsection .contact .details h1 span{
+    color: #ff034e;
+}
+.contactsection .contact .details p{
+    font-size: 23px;
+    font-weight: 100;
+    display: block;
+    padding: 2vh;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+.contactsection .contact .details p span{
+    padding-bottom: 4vh;
+    font-weight: 200;
+
+}
+.contactsection .contact .details p img{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 1vh;
+    margin: 1vh;
+}
+.contactsection .contact .details .profile{
+    padding-left: 5%;
+    margin-top: 7vh;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+.contactsection .contact .details .profile li{
+    list-style-type: square;
+    padding: 1vh;
+}
+.contactsection .contact .details .profile li a{
+    text-decoration: none;
+    color: white;
+}
+.contactsection .contact .details .profile li a:hover{
+    color: #ff034e;
+}
+
+.contactsection .contact .msgform{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 8vh;
+}
+.contactsection .contact .msgform input,textarea{
+    background-color: rgb(49, 48, 48);
+    padding: 5px;
+    backface-visibility: visible;
+    width: 80%;
+    height:6vh;
+    border: 3px solid #ff034e;
+    margin: 2vh;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+}
+.contactsection .contact .msgform textarea{
+    height: 14vh;
+}
+.contactsection .contact .msgform .btn{
+    background-color: #fa3772;
+    width: 82%;
+    height: 8vh;
+    margin: 2vh;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+}
+.contactsection .contact .msgform .btn:hover{
+    background-color: white;
+    color: #ff034e;
+}
+.footersec .footer{
+    margin-top: 4vh;
+    padding-top: 5vh;
+    height: 10vh;
+    background-color: rgb(36, 34, 34);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    vertical-align: middle;
+}
