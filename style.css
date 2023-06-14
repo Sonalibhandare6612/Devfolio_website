@@ -4,7 +4,6 @@
 }
 
 body {
-    width: 100%;
     background-image: url("pexels-teona-swift-6912833 (1).jpg");
     background-size: cover;
 }
@@ -31,7 +30,7 @@ body {
 }
 
 .navbar ul li a {
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     margin: 9px;
     padding: 9px;
@@ -39,7 +38,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    color: rgb(255, 0, 76);
+    color: #fa3772;
 }
 
 .homesection {
@@ -50,7 +49,7 @@ body {
 
 .homesection .info {
     color: white;
-    width: 70%;
+    width: 125vh;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -60,7 +59,7 @@ body {
 }
 
 .homesection .info .decor {
-    width: 86%;
+    width: 70;
     height: 72vh;
     background-color: rgba(73, 73, 73, 0.26);
     box-shadow: 2px 2px 3px 3px rgb(41, 39, 39);
@@ -90,7 +89,7 @@ body {
 }
 
 .homesection .info .head span {
-    color: rgb(255, 14, 86);
+    color: #fa3772;
 }
 
 .hide {
@@ -98,7 +97,7 @@ body {
 }
 
 .homesection .info .buttonsall .btn {
-    background-color: #D43F52;
+    background-color: #fa3772;
     border: 3px solid white;
     padding: 8px 17px;
     border-radius: 22px;
@@ -108,20 +107,20 @@ body {
 }
 .homesection .info .buttonsall .btn:hover{
     background-color: white;
-    color: #ff034e;
+    color: #fa3772;
 }
 
 .homesection .image {
+    margin-left: 8vh;
     padding-bottom: 5vh;
     margin-bottom: 5vh;
     height: 65vh;
-    width: 28%;
+    width: 50vh;
 }
 
 .aboutsection .about {
     margin: 15vh 3vh;
     display: flex;
-    width: 100%;
     height: 72vh;
 }
 
@@ -145,7 +144,7 @@ body {
 }
 
 .aboutsection .about .abtinfo h2 span {
-    color: #ff034e;
+    color: #fa3772;
 }
 
 .aboutsection .about .abtinfo p {
@@ -161,7 +160,7 @@ body {
 }
 
 .aboutsection .about .abtinfo .buttonsall .btn {
-    background-color: #e42c45;
+    background-color: #fa3772;
     border: 3px solid white;
     padding: 8px 17px;
     border-radius: 22px;
@@ -171,7 +170,7 @@ body {
 }
 .aboutsection .about .abtinfo .buttonsall .btn:hover{
     background-color: white;
-    color: #ff034e;
+    color: #fa3772;
 }
 
 
@@ -189,7 +188,7 @@ body {
     font-size: 40px;
 }
 .aboutsection .about .progressbar h1 span{
-    color: #ff034e;
+    color: #fa3772;
 }
 
 .aboutsection .about .progressbar p {
@@ -222,34 +221,34 @@ body {
     border-radius: 15px;
     height: 7px;
     width: 90%;
-    background-color: #e42c45;
+    background-color: #fa3772;
 }
 
 .aboutsection .about .progressbar .css {
     border-radius: 15px;
     height: 7px;
     width: 80%;
-    background-color: #e42c45;
+    background-color: #fa3772;
 }
 
 .aboutsection .about .progressbar .js {
     border-radius: 15px;
     height: 7px;
     width: 65%;
-    background-color: #e42c45;
+    background-color: #fa3772;
 }
 
 .aboutsection .about .progressbar .python {
     border-radius: 15px;
     height: 7px;
     width: 80%;
-    background-color: #e42c45;
+    background-color: #fa3772;
 }
 .aboutsection .about .progressbar .django {
     border-radius: 15px;
     height: 7px;
     width: 80%;
-    background-color: #e42c45;
+    background-color: #fa3772;
 }
 
 .projectsection {
@@ -264,7 +263,7 @@ body {
     font-weight: 400;
 }
 .projectsection h1 span{
-    color: #ff034e;
+    color: #fa3772;
 }
 
 .projectsection .allproject {
@@ -318,9 +317,9 @@ body {
 
 .projectsection .allproject .project1 a{
     text-decoration: none;
-    color: rgb(255, 0, 76);
+    color: #fa3772;
     font-size: 42px;
-    border: 3px solid rgb(255, 0, 76);
+    border: 3px solid #fa3772;
     padding: 2px 7px;
 }
 .projectsection .allproject .project1 a:hover{
@@ -380,7 +379,7 @@ body {
     font-weight: 300;
 }
 .contactsection .contact .details h1 span{
-    color: #ff034e;
+    color: #fa3772;
 }
 .contactsection .contact .details p{
     font-size: 23px;
@@ -418,7 +417,7 @@ body {
     color: white;
 }
 .contactsection .contact .details .profile li a:hover{
-    color: #ff034e;
+    color: #fa3772;
 }
 
 .contactsection .contact .msgform{
@@ -434,7 +433,7 @@ body {
     backface-visibility: visible;
     width: 80%;
     height:6vh;
-    border: 3px solid #ff034e;
+    border: 3px solid #fa3772;
     margin: 2vh;
     font-size: 18px;
     font-weight: 200;
@@ -455,7 +454,7 @@ body {
 }
 .contactsection .contact .msgform .btn:hover{
     background-color: white;
-    color: #ff034e;
+    color: #fa3772;
 }
 .footersec .footer{
     margin-top: 4vh;
