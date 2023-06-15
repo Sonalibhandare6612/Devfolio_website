@@ -34,6 +34,7 @@ window.onload = function () {
   setTimeout(function () {
     box1.style.right = "0"; // Move the box to the left edge of the viewport
   }, 100);
+  
 
 };
 
