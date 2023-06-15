@@ -10,15 +10,17 @@ body {
 
 .navbar {
     text-align: right;
-    height: 90px;
+    height: 110px;
     vertical-align: middle;
     padding-top: 15px;
+    position: sticky;
 }
 
 .navbar ul {
     padding: 19px;
     display: inline-block;
     text-align: right;
+    justify-content: center;
     list-style: none;
 
 }
@@ -30,7 +32,7 @@ body {
 }
 
 .navbar ul li a {
-    font-size: 22px;
+    font-size: 24px;
     color: white;
     margin: 9px;
     padding: 9px;
@@ -105,7 +107,8 @@ body {
     margin: 13px 5px;
     color: aliceblue;
 }
-.homesection .info .buttonsall .btn:hover{
+
+.homesection .info .buttonsall .btn:hover {
     background-color: white;
     color: #fa3772;
 }
@@ -116,6 +119,22 @@ body {
     margin-bottom: 5vh;
     height: 65vh;
     width: 50vh;
+}
+
+.scrollup #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    backface-visibility: visible;
+    cursor: pointer;
+    padding: 2px;
+}
+
+#myBtn:hover {
+    background-color: white;
+    color: white;
 }
 
 .aboutsection .about {
@@ -168,7 +187,8 @@ body {
     margin: 13px 5px;
     color: aliceblue;
 }
-.aboutsection .about .abtinfo .buttonsall .btn:hover{
+
+.aboutsection .about .abtinfo .buttonsall .btn:hover {
     background-color: white;
     color: #fa3772;
 }
@@ -187,7 +207,8 @@ body {
     text-align: center;
     font-size: 40px;
 }
-.aboutsection .about .progressbar h1 span{
+
+.aboutsection .about .progressbar h1 span {
     color: #fa3772;
 }
 
@@ -244,6 +265,7 @@ body {
     width: 80%;
     background-color: #fa3772;
 }
+
 .aboutsection .about .progressbar .django {
     border-radius: 15px;
     height: 7px;
@@ -257,12 +279,14 @@ body {
     height: 70vh;
     color: white;
 }
-.projectsection h1{
+
+.projectsection h1 {
     text-align: center;
     font-size: 43px;
     font-weight: 400;
 }
-.projectsection h1 span{
+
+.projectsection h1 span {
     color: #fa3772;
 }
 
@@ -315,18 +339,20 @@ body {
     text-align: justify;
 }
 
-.projectsection .allproject .project1 a{
+.projectsection .allproject .project1 a {
     text-decoration: none;
     color: #fa3772;
     font-size: 42px;
     border: 3px solid #fa3772;
     padding: 2px 7px;
 }
-.projectsection .allproject .project1 a:hover{
+
+.projectsection .allproject .project1 a:hover {
     border: 3px solid white;
     color: white;
 }
-.moving{
+
+.moving {
     height: 45vh;
     backface-visibility: visible;
     z-index: 1;
@@ -355,13 +381,15 @@ body {
     width: fit-content;
     height: fit-content;
 }
-.contactsection .contact{
+
+.contactsection .contact {
     margin-top: 17vh;
     display: flex;
     height: 70vh;
     backface-visibility: visible;
 }
-.contactsection .contact .details{
+
+.contactsection .contact .details {
     margin: 5vh;
     padding-left: 10%;
     text-align: center;
@@ -372,16 +400,19 @@ body {
     font-size: 20px;
     font-weight: 200;
 }
-.contactsection .contact .details h1{
+
+.contactsection .contact .details h1 {
     align-items: center;
     text-align: center;
     font-size: 50px;
     font-weight: 300;
 }
-.contactsection .contact .details h1 span{
+
+.contactsection .contact .details h1 span {
     color: #fa3772;
 }
-.contactsection .contact .details p{
+
+.contactsection .contact .details p {
     font-size: 23px;
     font-weight: 100;
     display: block;
@@ -390,64 +421,75 @@ body {
     text-align: justify;
     justify-content: center;
 }
-.contactsection .contact .details p span{
+
+.contactsection .contact .details p span {
     padding-bottom: 4vh;
     font-weight: 200;
 
 }
-.contactsection .contact .details p img{
+
+.contactsection .contact .details p img {
     border: 3px solid white;
     border-radius: 50%;
     padding: 1vh;
     margin: 1vh;
 }
-.contactsection .contact .details .profile{
+
+.contactsection .contact .details .profile {
     padding-left: 5%;
     margin-top: 7vh;
     text-align: left;
     align-items: center;
     justify-content: center;
 }
-.contactsection .contact .details .profile li{
+
+.contactsection .contact .details .profile li {
     list-style: none;
     padding: 1vh;
 }
-.contactsection .contact .details .profile li span{
+
+.contactsection .contact .details .profile li span {
     padding-right: 1.3vh;
     font-size: 25px;
     font-weight: 400;
 }
-.contactsection .contact .details .profile li a{
+
+.contactsection .contact .details .profile li a {
     text-decoration: none;
     color: white;
 }
-.contactsection .contact .details .profile li a:hover{
+
+.contactsection .contact .details .profile li a:hover {
     color: #fa3772;
 }
 
-.contactsection .contact .msgform{
+.contactsection .contact .msgform {
     width: 50%;
     align-items: center;
     text-align: center;
     justify-content: center;
     padding-top: 8vh;
 }
-.contactsection .contact .msgform input,textarea{
+
+.contactsection .contact .msgform input,
+textarea {
     background-color: rgb(49, 48, 48);
     padding: 5px;
     backface-visibility: visible;
     width: 80%;
-    height:6vh;
+    height: 6vh;
     border: 3px solid #fa3772;
     margin: 2vh;
     font-size: 18px;
     font-weight: 200;
     color: white;
 }
-.contactsection .contact .msgform textarea{
+
+.contactsection .contact .msgform textarea {
     height: 14vh;
 }
-.contactsection .contact .msgform .btn{
+
+.contactsection .contact .msgform .btn {
     background-color: #fa3772;
     width: 82%;
     height: 8vh;
@@ -457,11 +499,13 @@ body {
     font-weight: 200;
     color: white;
 }
-.contactsection .contact .msgform .btn:hover{
+
+.contactsection .contact .msgform .btn:hover {
     background-color: white;
     color: #fa3772;
 }
-.footersec .footer{
+
+.footersec .footer {
     margin-top: 4vh;
     padding-top: 5vh;
     height: 10vh;
