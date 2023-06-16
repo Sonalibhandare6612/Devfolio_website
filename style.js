@@ -22,7 +22,7 @@ window.onload = function () {
   }
 
   // Display the headings one by one every 3 seconds
-  setInterval(displayNextHeading, 3000);
+  setInterval(displayNextHeading, 2000);
 
   // moving boxes
   var box = document.getElementById("leftbox");
