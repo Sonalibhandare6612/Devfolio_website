@@ -7,7 +7,6 @@ body {
     background-image: url("pexels-teona-swift-6912833 (1).jpg");
     background-size: cover;
 }
-
 .navbar {
     text-align: right;
     height: 110px;
@@ -15,7 +14,6 @@ body {
     padding-top: 15px;
     position: sticky;
 }
-
 .navbar ul {
     padding: 19px;
     display: inline-block;
@@ -146,7 +144,7 @@ body {
 .aboutsection .about .abtinfo {
     backface-visibility: visible;
     background-color: rgba(73, 73, 73, 0.26);
-    box-shadow: 1px 1px 1px 1px rgb(68, 62, 62);
+    box-shadow: 2px 2px 3px 3px rgb(41, 39, 39);
     padding: 5px;
     position: relative;
     z-index: 1;
@@ -198,7 +196,7 @@ body {
 .aboutsection .about .progressbar {
     color: white;
     margin: 5px;
-    padding-top: 15vh;
+    padding-top: 2px;
     padding: 3vh;
     width: 38%;
     backface-visibility: visible;
@@ -223,18 +221,18 @@ body {
 
 .aboutsection .about .progressbar .container {
     background-color: white;
-    backface-visibility: hidden;
+    backface-visibility: visible;
     width: 100%;
     border-radius: 15px;
     height: 7px;
 }
 
 .aboutsection .about .progressbar.skills {
-    margin-top: 5vh;
+    margin-top: 3vh;
     border-radius: 15px;
     height: 7px;
     text-align: right;
-    padding-top: 10px;
+    padding-top: 6px;
     padding-bottom: 10px;
     color: white;
 }
@@ -259,6 +257,12 @@ body {
     width: 65%;
     background-color: #fa3772;
 }
+.aboutsection .about .progressbar .bootstrap {
+    border-radius: 15px;
+    height: 7px;
+    width: 68%;
+    background-color: #fa3772;
+}    
 
 .aboutsection .about .progressbar .python {
     border-radius: 15px;
