@@ -97,11 +97,12 @@ body {
 }
 
 .homesection .info .buttonsall .btn {
+    text-decoration: none;
     background-color: #fa3772;
     border: 3px solid white;
     padding: 8px 17px;
     border-radius: 22px;
-    font-size: 19px;
+    font-size: 21px;
     margin: 13px 5px;
     color: aliceblue;
 }
@@ -178,13 +179,14 @@ body {
 }
 
 .aboutsection .about .abtinfo .buttonsall .btn {
+    text-decoration: none;
     background-color: #fa3772;
     border: 3px solid white;
     padding: 8px 17px;
     border-radius: 22px;
-    font-size: 19px;
+    font-size: 21px;
     margin: 13px 5px;
-    color: aliceblue;
+    color: white;
 }
 
 .aboutsection .about .abtinfo .buttonsall .btn:hover {
